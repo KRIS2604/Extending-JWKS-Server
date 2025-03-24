@@ -12,20 +12,4 @@ Features
 
 ---
 
-Endpoints
-
-`POST /auth`
-
-Returns a JWT token signed with a valid private key from the database.
-
-Query Parameters:
-- `expired=true` – Returns a token using an expired key (if available).
-
-Response Example:
-```json
-{
-  "token": "<JWT-TOKEN>"
-}
-
-+
 
